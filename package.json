@@ -1,0 +1,34 @@
+{
+    "name": "chai-oequal",
+    "description": "Chai oequal() that uses object's equality method.",
+    "keywords": ["chai"],
+    "version": "0.0.1",
+    "author": "Wojtek Ruszczewski <chai-oequal@wr.waw.pl>",
+    "main": "chai-oequal.js",
+    "scripts": {
+        "test": "karma start"
+    },
+    "dependencies": {
+        "chai": "latest"
+    },
+    "devDependencies": {
+        "browserify": "latest",
+        "chai": "latest",
+        "jasmine-core": "latest",
+        "karma": "latest",
+        "karma-browserify": "latest",
+        "karma-chai": "latest",
+        "karma-chrome-launcher": "latest",
+        "karma-firefox-launcher": "latest",
+        "karma-jasmine": "latest",
+        "karma-phantomjs-launcher": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wrwrwr/chai-oequal"
+    },
+    "bugs": {
+        "url": "https://github.com/wrwrwr/chai-oequal/issues"
+    },
+    "license": "MIT"
+}

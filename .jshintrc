@@ -1,0 +1,8 @@
+{
+    "enforceall": true,  // featureset: "2.6"
+    "nocomma": false,  // JSHint flaw.
+    "validthis": true,  // Assertion.addMethod() usage.
+    "node": true,
+    "jasmine": true,
+    "predef": ["chai", "define"]
+}

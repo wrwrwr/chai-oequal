@@ -2,7 +2,7 @@
 chai-oequal
 ===========
 
-`Chai <http://chaijs.com/>`_ plugin that defines an `oequal()` method for
+`Chai <http://chaijs.com/>`_ plugin that defines an ``oequal()`` method for
 objects with a custom equality notion.
 
 Overview
@@ -45,7 +45,7 @@ And use with `Node.js <https://nodejs.org/>`_:
         oequal = require('oequal');
     chai.use(oequal);
 
-You may also load the plugin with a `script` tag or using `define()`.
+You may also load the plugin with a ``script`` tag or using ``define()``.
 
 To change the default method name called to check objects equality:
 
